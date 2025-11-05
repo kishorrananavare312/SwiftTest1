@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-30T13:56:54 IST" name="Master Suite" finished-at="2025-10-30T13:57:09 IST" duration-ms="14640">
+    <groups>
+      <group name="Master">
+        <method signature="TC001_AccountRegistration.accountreagistrationverify()[pri:0, instance:com.testCases.TC001_AccountRegistration@11eadcba]" name="accountreagistrationverify" class="com.testCases.TC001_AccountRegistration"/>
+        <method signature="TC002_UserLogin.userlogin()[pri:0, instance:com.testCases.TC002_UserLogin@62dae540]" name="userlogin" class="com.testCases.TC002_UserLogin"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC001_AccountRegistration.accountreagistrationverify()[pri:0, instance:com.testCases.TC001_AccountRegistration@11eadcba]" name="accountreagistrationverify" class="com.testCases.TC001_AccountRegistration"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC002_UserLogin.userlogin()[pri:0, instance:com.testCases.TC002_UserLogin@62dae540]" name="userlogin" class="com.testCases.TC002_UserLogin"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2025-10-30T13:56:54 IST" name="Test" finished-at="2025-10-30T13:57:09 IST" duration-ms="14640">
+      <class name="com.testCases.TC002_UserLogin">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.testCases.TC002_UserLogin@62dae540]" started-at="2025-10-30T13:57:04 IST" name="setup" finished-at="2025-10-30T13:57:07 IST" duration-ms="2591" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="userlogin()[pri:0, instance:com.testCases.TC002_UserLogin@62dae540]" started-at="2025-10-30T13:57:07 IST" name="userlogin" finished-at="2025-10-30T13:57:09 IST" duration-ms="1955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userlogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testCases.TC002_UserLogin@62dae540]" started-at="2025-10-30T13:57:09 IST" name="teardown" finished-at="2025-10-30T13:57:09 IST" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.testCases.TC002_UserLogin -->
+      <class name="com.testCases.TC001_AccountRegistration">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.testCases.TC001_AccountRegistration@11eadcba]" started-at="2025-10-30T13:56:55 IST" name="setup" finished-at="2025-10-30T13:56:58 IST" duration-ms="3616" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="accountreagistrationverify()[pri:0, instance:com.testCases.TC001_AccountRegistration@11eadcba]" started-at="2025-10-30T13:56:58 IST" name="accountreagistrationverify" finished-at="2025-10-30T13:57:04 IST" duration-ms="5358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountreagistrationverify -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testCases.TC001_AccountRegistration@11eadcba]" started-at="2025-10-30T13:57:04 IST" name="teardown" finished-at="2025-10-30T13:57:04 IST" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.testCases.TC001_AccountRegistration -->
+    </test> <!-- Test -->
+  </suite> <!-- Master Suite -->
+</testng-results>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Master Suite]">
+  <listeners>
+    <listener class-name="com.utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="Master"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.testCases.TC002_UserLogin">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="userlogin"/>
+        </methods>
+      </class> <!-- com.testCases.TC002_UserLogin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Master Suite] -->

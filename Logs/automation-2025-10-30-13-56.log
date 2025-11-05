@@ -1,0 +1,3 @@
+2025-10-30 13:56:54 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\admin\eclipse-workspace1\SwiftTest\Master.xml] otherwise TestNG may fail or not work as expected.
+2025-10-30 13:56:58 [main] INFO  com.testCases.TC001_AccountRegistration - *********Starting Accountregitration testcase**********
+2025-10-30 13:56:59 [main] INFO  com.testCases.TC001_AccountRegistration - click on myaccount
