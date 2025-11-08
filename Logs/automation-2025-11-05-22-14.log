@@ -1,0 +1,8 @@
+2025-11-05 22:14:36 [TestNG-tests-3] INFO  com.testCases.TC001_AccountRegistration - *********Starting Accountregitration testcase**********
+2025-11-05 22:14:36 [TestNG-tests-2] INFO  com.testCases.TC001_AccountRegistration - *********Starting Accountregitration testcase**********
+2025-11-05 22:14:36 [TestNG-tests-1] INFO  com.testCases.TC001_AccountRegistration - *********Starting Accountregitration testcase**********
+2025-11-05 22:14:37 [TestNG-tests-2] INFO  com.testCases.TC001_AccountRegistration - click on myaccount
+2025-11-05 22:14:37 [TestNG-tests-3] INFO  com.testCases.TC001_AccountRegistration - click on myaccount
+2025-11-05 22:14:37 [TestNG-tests-1] INFO  com.testCases.TC001_AccountRegistration - click on myaccount
+2025-11-05 22:14:38 [TestNG-tests-2] INFO  com.testCases.TC001_AccountRegistration - click on register
+2025-11-05 22:14:38 [TestNG-tests-2] INFO  com.testCases.TC001_AccountRegistration - Providing customer details

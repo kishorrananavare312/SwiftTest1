@@ -1,0 +1,3 @@
+com\testCases\TC001_AccountRegistration.class
+com\testCases\TC003_Search.class
+com\testCases\TC002_UserLogin.class
