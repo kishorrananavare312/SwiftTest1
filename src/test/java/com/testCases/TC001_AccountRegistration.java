@@ -58,7 +58,9 @@ public class TC001_AccountRegistration extends TestBase {
 	
 	catch(Exception e)
 	{
-		Assert.fail();
+		 logger.error("Exception occurred during login test: " + e.getMessage(), e);
+		 Assert.fail("Test failed due to exception: " + e.getMessage());
+		//Assert.fail();
 	}
 		logger.info("Account regstration test is finished");
 	}
