@@ -1,0 +1,11 @@
+2025-11-24 13:30:36 [TestNG-tests-2] INFO  com.testCases.TC001_AccountRegistration - *********Starting Accountregitration testcase**********
+2025-11-24 13:30:36 [TestNG-tests-1] INFO  com.testCases.TC001_AccountRegistration - *********Starting Accountregitration testcase**********
+2025-11-24 13:30:38 [TestNG-tests-1] INFO  com.testCases.TC001_AccountRegistration - click on myaccount
+2025-11-24 13:30:39 [TestNG-tests-2] INFO  com.testCases.TC001_AccountRegistration - click on myaccount
+2025-11-24 13:30:39 [TestNG-tests-3] INFO  com.testCases.TC001_AccountRegistration - *********Starting Accountregitration testcase**********
+2025-11-24 13:30:40 [TestNG-tests-3] INFO  com.testCases.TC001_AccountRegistration - click on myaccount
+2025-11-24 13:30:40 [TestNG-tests-3] INFO  com.testCases.TC001_AccountRegistration - click on register
+2025-11-24 13:30:41 [TestNG-tests-3] INFO  com.testCases.TC001_AccountRegistration - Providing customer details
+2025-11-24 13:30:45 [TestNG-tests-3] INFO  com.testCases.TC001_AccountRegistration - Valaidating confirmation message
+2025-11-24 13:30:45 [TestNG-tests-3] INFO  com.testCases.TC001_AccountRegistration - Account Created Successfully
+2025-11-24 13:30:45 [TestNG-tests-3] INFO  com.testCases.TC001_AccountRegistration - Account regstration test is finished

@@ -1,0 +1,13 @@
+2025-11-24 12:18:03 [main] INFO  com.testCases.TC001_AccountRegistration - *********Starting Accountregitration testcase**********
+2025-11-24 12:18:03 [main] INFO  com.testCases.TC001_AccountRegistration - click on myaccount
+2025-11-24 12:18:04 [main] INFO  com.testCases.TC001_AccountRegistration - click on register
+2025-11-24 12:18:04 [main] INFO  com.testCases.TC001_AccountRegistration - Providing customer details
+2025-11-24 12:18:08 [main] INFO  com.testCases.TC001_AccountRegistration - Valaidating confirmation message
+2025-11-24 12:18:08 [main] INFO  com.testCases.TC001_AccountRegistration - Account Created Successfully
+2025-11-24 12:18:08 [main] INFO  com.testCases.TC001_AccountRegistration - Account regstration test is finished
+2025-11-24 12:18:10 [main] INFO  com.testCases.TC002_UserLogin - *********Starting UserLogin testcase**********
+2025-11-24 12:18:11 [main] INFO  com.testCases.TC002_UserLogin - click on myaccount
+2025-11-24 12:18:11 [main] INFO  com.testCases.TC002_UserLogin - click on Login
+2025-11-24 12:18:11 [main] INFO  com.testCases.TC002_UserLogin - Providing login details
+2025-11-24 12:18:12 [main] INFO  com.testCases.TC002_UserLogin - Valaidating confirmation message
+2025-11-24 12:18:22 [main] ERROR com.testCases.TC002_UserLogin - Exception occurred during login test: expected [true] but found [false]

@@ -1,0 +1,14 @@
+2025-11-24 13:10:15 [main] INFO  com.testCases.TC001_AccountRegistration - *********Starting Accountregitration testcase**********
+2025-11-24 13:10:15 [main] INFO  com.testCases.TC001_AccountRegistration - click on myaccount
+2025-11-24 13:10:16 [main] INFO  com.testCases.TC001_AccountRegistration - click on register
+2025-11-24 13:10:16 [main] INFO  com.testCases.TC001_AccountRegistration - Providing customer details
+2025-11-24 13:10:22 [main] INFO  com.testCases.TC001_AccountRegistration - Valaidating confirmation message
+2025-11-24 13:10:22 [main] INFO  com.testCases.TC001_AccountRegistration - Account Created Successfully
+2025-11-24 13:10:22 [main] INFO  com.testCases.TC001_AccountRegistration - Account regstration test is finished
+2025-11-24 13:10:25 [main] INFO  com.testCases.TC002_UserLogin - *********Starting UserLogin testcase**********
+2025-11-24 13:10:25 [main] INFO  com.testCases.TC002_UserLogin - click on myaccount
+2025-11-24 13:10:25 [main] INFO  com.testCases.TC002_UserLogin - click on Login
+2025-11-24 13:10:25 [main] INFO  com.testCases.TC002_UserLogin - Providing login details
+2025-11-24 13:10:27 [main] INFO  com.testCases.TC002_UserLogin - Valaidating confirmation message
+2025-11-24 13:10:37 [main] ERROR com.testCases.TC002_UserLogin - Exception occurred during login test: expected [true] but found [false]
+2025-11-24 13:10:37 [main] INFO  com.testCases.TC002_UserLogin - Screenshot taken: C:\Users\admin\eclipse-workspace1\SwiftTest\Screenshots\UserLoginFailure_2025.11.24.13.10.37.png

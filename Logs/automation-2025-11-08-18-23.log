@@ -1,0 +1,5 @@
+2025-11-08 18:23:02 [main] INFO  com.testCases.TC002_UserLogin - click on myaccount
+2025-11-08 18:23:04 [main] INFO  com.testCases.TC002_UserLogin - click on Login
+2025-11-08 18:23:04 [main] INFO  com.testCases.TC002_UserLogin - Providing login details
+2025-11-08 18:23:08 [main] INFO  com.testCases.TC002_UserLogin - Valaidating confirmation message
+2025-11-08 18:23:09 [main] INFO  com.testCases.TC002_UserLogin - login test is finished

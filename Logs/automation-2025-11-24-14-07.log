@@ -1,0 +1,5 @@
+2025-11-24 14:07:17 [TestNG-tests-2] INFO  com.testCases.TC001_AccountRegistration - Opening edge browser
+2025-11-24 14:07:22 [TestNG-tests-1] INFO  com.testCases.TC001_AccountRegistration - *********Starting Accountregitration testcase**********
+2025-11-24 14:07:22 [TestNG-tests-2] INFO  com.testCases.TC001_AccountRegistration - *********Starting Accountregitration testcase**********
+2025-11-24 14:07:22 [TestNG-tests-1] INFO  com.testCases.TC001_AccountRegistration - click on myaccount
+2025-11-24 14:07:22 [TestNG-tests-2] INFO  com.testCases.TC001_AccountRegistration - click on myaccount

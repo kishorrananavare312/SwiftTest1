@@ -1,0 +1,11 @@
+2025-11-19 14:15:18 [main] INFO  com.testCases.TC001_AccountRegistration - *********Starting Accountregitration testcase**********
+2025-11-19 14:15:18 [main] INFO  com.testCases.TC001_AccountRegistration - click on myaccount
+2025-11-19 14:15:19 [main] INFO  com.testCases.TC001_AccountRegistration - click on register
+2025-11-19 14:15:19 [main] INFO  com.testCases.TC001_AccountRegistration - Providing customer details
+2025-11-19 14:15:22 [main] INFO  com.testCases.TC001_AccountRegistration - Valaidating confirmation message
+2025-11-19 14:15:23 [main] INFO  com.testCases.TC001_AccountRegistration - Account regstration test is finished
+2025-11-19 14:15:30 [main] INFO  com.testCases.TC002_UserLogin - *********Starting UserLogin testcase**********
+2025-11-19 14:15:30 [main] INFO  com.testCases.TC002_UserLogin - click on myaccount
+2025-11-19 14:15:31 [main] INFO  com.testCases.TC002_UserLogin - click on Login
+2025-11-19 14:15:31 [main] INFO  com.testCases.TC002_UserLogin - Providing login details
+2025-11-19 14:15:32 [main] INFO  com.testCases.TC002_UserLogin - Valaidating confirmation message

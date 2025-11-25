@@ -41,29 +41,32 @@ public class TC001_AccountRegistration extends TestBase {
 		logger.info("Valaidating confirmation message");
 		String msg=acc.confirmationmsg();
 		
-		if(msg.equals("Your Account Has Been Created!"))
-				{
-					Assert.assertTrue(true);
-				}
-		else
-		{
-			logger.error("Test failed");
-			logger.debug("Debug logs");
-			Assert.assertTrue(false);
-		}
+//		if(msg.equals("Your Account Has Been Created!"))
+//				{
+//					Assert.assertTrue(true);
+//				}
+//		else
+//		{
+//			logger.error("Test failed");
+//			logger.debug("Debug logs");
+//			Assert.assertTrue(false);
+//		}
+//		
 		
-		
-		//Assert.assertEquals(msg,"Your Account Has Been Created!!!");
+		Assert.assertEquals("Your Account Has Been Created!",msg);
+		 logger.info("Account Created Successfully");
 	}
 	
-	catch(Exception e)
-	{
-		 logger.error("Exception occurred during login test: " + e.getMessage(), e);
-		 Assert.fail("Test failed due to exception: " + e.getMessage());
-		//Assert.fail();
+		catch (AssertionError ae) {
+	    logger.error("Exception occurred during account registration test: " + ae.getMessage());
+	    String screenshotPath = CaptureScreen("UserLoginFailure");
+	    logger.info("Screenshot taken: " + screenshotPath);
+	    Assert.fail("Assertion Failed: " + ae.getMessage());
 	}
-		logger.info("Account regstration test is finished");
+
+	logger.info("Account regstration test is finished");
 	}
+		
 	
 
 

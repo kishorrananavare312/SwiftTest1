@@ -1,0 +1,4 @@
+2025-11-08 18:18:45 [main] INFO  com.testCases.TC001_AccountRegistration - *********Starting Accountregitration testcase**********
+2025-11-08 18:18:47 [main] INFO  com.testCases.TC001_AccountRegistration - click on myaccount
+2025-11-08 18:18:51 [main] INFO  com.testCases.TC001_AccountRegistration - click on register
+2025-11-08 18:18:51 [main] INFO  com.testCases.TC001_AccountRegistration - Providing customer details

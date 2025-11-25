@@ -1,0 +1,5 @@
+2025-11-19 13:39:04 [main] INFO  com.testCases.TC002_UserLogin - *********Starting UserLogin testcase**********
+2025-11-19 13:39:05 [main] INFO  com.testCases.TC002_UserLogin - click on myaccount
+2025-11-19 13:39:05 [main] INFO  com.testCases.TC002_UserLogin - click on Login
+2025-11-19 13:39:05 [main] INFO  com.testCases.TC002_UserLogin - Providing login details
+2025-11-19 13:39:07 [main] INFO  com.testCases.TC002_UserLogin - Valaidating confirmation message

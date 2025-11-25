@@ -1,0 +1,17 @@
+2025-11-24 13:20:00 [main] ERROR com.testCases.TC001_AccountRegistration - Exception occurred during account registration test: expected [no such element: Unable to locate element: {"method":"xpath","selector":"//h1[normalize-space()='Your Account Has Been Created!']"}
+  (Session info: chrome=142.0.7444.163)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d518ad2d045baaeb46f0ab77c7f21405, findElement {value=//h1[normalize-space()='Your Account Has Been Created!'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.163, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58403}, goog:processID: 3228, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58403/devtoo..., se:cdpVersion: 142.0.7444.163, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d518ad2d045baaeb46f0ab77c7f21405] but found [Your Account Has Been Created!]
+2025-11-24 13:20:00 [main] INFO  com.testCases.TC001_AccountRegistration - Screenshot taken: C:\Users\admin\eclipse-workspace1\SwiftTest\Screenshots\UserLoginFailure_2025.11.24.13.20.00.png
+2025-11-24 13:20:05 [main] INFO  com.testCases.TC002_UserLogin - *********Starting UserLogin testcase**********
+2025-11-24 13:20:06 [main] INFO  com.testCases.TC002_UserLogin - click on myaccount
+2025-11-24 13:20:06 [main] INFO  com.testCases.TC002_UserLogin - click on Login
+2025-11-24 13:20:06 [main] INFO  com.testCases.TC002_UserLogin - Providing login details
+2025-11-24 13:20:07 [main] INFO  com.testCases.TC002_UserLogin - Valaidating confirmation message
+2025-11-24 13:20:08 [main] INFO  com.testCases.TC002_UserLogin - Login Successfully
+2025-11-24 13:20:08 [main] INFO  com.testCases.TC002_UserLogin - login test is finished

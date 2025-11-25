@@ -1,0 +1,13 @@
+2025-11-24 14:00:00 [TestNG-tests-2] INFO  com.testCases.TC001_AccountRegistration - click on myaccount
+2025-11-24 14:00:06 [TestNG-tests-3] INFO  com.testCases.TC001_AccountRegistration - *********Starting Accountregitration testcase**********
+2025-11-24 14:00:06 [TestNG-tests-3] INFO  com.testCases.TC001_AccountRegistration - click on myaccount
+2025-11-24 14:00:07 [TestNG-tests-3] INFO  com.testCases.TC001_AccountRegistration - click on register
+2025-11-24 14:00:07 [TestNG-tests-3] INFO  com.testCases.TC001_AccountRegistration - Providing customer details
+2025-11-24 14:00:11 [TestNG-tests-3] INFO  com.testCases.TC001_AccountRegistration - Valaidating confirmation message
+2025-11-24 14:00:13 [TestNG-tests-3] ERROR com.testCases.TC001_AccountRegistration - Exception occurred during account registration test: expected [Tried to run command without establishing a connection
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [41deaf8d-58e0-4767-8279-fdbe2c7d3ed3, findElement {using=xpath, value=//h1[normalize-space()='Your Account Has Been Created!']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 145.0.1, moz:accessibilityChecks: false, moz:buildID: 20251118022223, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13872, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 41deaf8d-58e0-4767-8279-fdbe2c7d3ed3] but found [Your Account Has Been Created!]

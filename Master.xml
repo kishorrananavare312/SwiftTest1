@@ -5,9 +5,13 @@
 <!--<listener class-name="com.utilities.ExtentReportManager"/>-->
 <!--</listeners>-->
 
-  <test thread-count="5" name="Test">
+  <test thread-count="2" name="Test">
   	<parameter name="browser" value="chrome"></parameter>
   	
+  <listeners>
+    <listener class-name="com.utilities.ScreenshotList"/>
+  </listeners>
+  
     <classes>
       <class name="com.testCases.TC001_AccountRegistration"/>
       <class name="com.testCases.TC002_UserLogin"/>

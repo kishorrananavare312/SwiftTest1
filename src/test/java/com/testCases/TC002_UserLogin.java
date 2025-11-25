@@ -1,6 +1,7 @@
 package com.testCases;
 
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.pageObjects.HomePage;
@@ -8,9 +9,10 @@ import com.pageObjects.Loginpage;
 import com.pageObjects.Myaccountpage;
 import com.testBase.TestBase;
 
+
+@Listeners(com.utilities.ScreenshotList.class)
 public class TC002_UserLogin extends TestBase{
-	
-	
+
 	@Test(groups={"Regression","Master"})
 	public void userlogin()
 	{
@@ -36,13 +38,18 @@ public class TC002_UserLogin extends TestBase{
 	    Myaccountpage myacc=new Myaccountpage(driver);
 	    boolean confirmationpage=myacc.confirmmyaccount();
 	    
-	    Assert.assertTrue(confirmationpage);   
+	    Assert.assertTrue(confirmationpage);
+	    logger.info("Login Successfully");
+	    
+	    
 	    		
 		}
-		catch (Exception e) {
-			 logger.error("Exception occurred during login test: " + e.getMessage(), e);
-			 Assert.fail("Test failed due to exception: " + e.getMessage());
-			//Assert.fail();
+		catch (AssertionError ae) {
+		    logger.error("Exception occurred during login test: " + ae.getMessage());
+		    String screenshotPath = CaptureScreen("UserLoginFailure");
+		    logger.info("Screenshot taken: " + screenshotPath);
+		    Assert.fail("Assertion Failed: " + ae.getMessage());
+		    
 		}
 	    
 		logger.info("login test is finished");

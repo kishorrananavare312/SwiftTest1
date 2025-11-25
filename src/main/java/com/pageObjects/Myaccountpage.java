@@ -21,14 +21,28 @@ public class Myaccountpage extends HomePage{
 	//Action
 	public boolean confirmmyaccount()
 	{
-		try
-		{
+	try
+	{
 			return (myaccountmsg.isDisplayed());
-		}
-		catch (Exception e) {
-			return false;
-		}
 	}
+	catch (Exception e) {
+		return false;
+	}
+	}
+	
+//	public String confirmmyaccount()
+//	{
+//		try {
+//			return (myaccountmsg.getText());
+//		}
+//		catch(Exception e)
+//		{
+//		 return (e.getMessage());
+//		}
+//		
+//	}
+	
+	
 	
 
 }

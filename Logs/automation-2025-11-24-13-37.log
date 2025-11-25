@@ -1,0 +1,12 @@
+2025-11-24 13:37:38 [TestNG-tests-1] INFO  com.testCases.TC001_AccountRegistration - Opening chrome browser
+2025-11-24 13:37:44 [TestNG-tests-2] INFO  com.testCases.TC001_AccountRegistration - *********Starting Accountregitration testcase**********
+2025-11-24 13:37:44 [TestNG-tests-1] INFO  com.testCases.TC001_AccountRegistration - *********Starting Accountregitration testcase**********
+2025-11-24 13:37:44 [TestNG-tests-1] INFO  com.testCases.TC001_AccountRegistration - click on myaccount
+2025-11-24 13:37:45 [TestNG-tests-2] INFO  com.testCases.TC001_AccountRegistration - click on myaccount
+2025-11-24 13:37:49 [TestNG-tests-3] INFO  com.testCases.TC001_AccountRegistration - *********Starting Accountregitration testcase**********
+2025-11-24 13:37:49 [TestNG-tests-3] INFO  com.testCases.TC001_AccountRegistration - click on myaccount
+2025-11-24 13:37:50 [TestNG-tests-3] INFO  com.testCases.TC001_AccountRegistration - click on register
+2025-11-24 13:37:50 [TestNG-tests-3] INFO  com.testCases.TC001_AccountRegistration - Providing customer details
+2025-11-24 13:37:53 [TestNG-tests-3] INFO  com.testCases.TC001_AccountRegistration - Valaidating confirmation message
+2025-11-24 13:37:53 [TestNG-tests-3] INFO  com.testCases.TC001_AccountRegistration - Account Created Successfully
+2025-11-24 13:37:53 [TestNG-tests-3] INFO  com.testCases.TC001_AccountRegistration - Account regstration test is finished

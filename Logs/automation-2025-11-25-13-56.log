@@ -1,0 +1,8 @@
+2025-11-25 13:56:01 [main] INFO  com.testCases.TC002_UserLogin - Opening chrome browser
+2025-11-25 13:56:04 [main] INFO  com.testCases.TC002_UserLogin - *********Starting UserLogin testcase**********
+2025-11-25 13:56:05 [main] INFO  com.testCases.TC002_UserLogin - click on myaccount
+2025-11-25 13:56:05 [main] INFO  com.testCases.TC002_UserLogin - click on Login
+2025-11-25 13:56:05 [main] INFO  com.testCases.TC002_UserLogin - Providing login details
+2025-11-25 13:56:06 [main] INFO  com.testCases.TC002_UserLogin - Valaidating confirmation message
+2025-11-25 13:56:06 [main] INFO  com.testCases.TC002_UserLogin - Login Successfully
+2025-11-25 13:56:06 [main] INFO  com.testCases.TC002_UserLogin - login test is finished

@@ -6,10 +6,12 @@ import org.openqa.selenium.support.FindBy;
 
 public class Loginpage extends BasePage {
 	
+	
 	//constructor
 	public Loginpage(WebDriver driver)
 	{
 		super(driver);
+		
 	}
 	
 	
